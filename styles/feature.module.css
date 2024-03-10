@@ -1,0 +1,517 @@
+
+.feature_sub_container{
+  text-align: center;
+  margin:5rem 1rem;
+}
+.feature_sub_container h1{
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 3rem;
+  color: rgb(70, 13, 13);
+}
+.feature_sub_container p{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+}
+.feature_card_container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature_card_container div{
+  height: auto;
+  width:380px;
+  border:3px double rgb(104, 27, 27,0.4);
+  margin:2rem;
+  margin-right: 2rem;
+  border-radius: 5px;
+  border-left: transparent;
+  border-top: transparent;
+}
+
+.feature_card_container div img{
+  height:300px;
+  width:340px;
+  margin:2rem;
+  border:1px solid rgb(146, 241, 4);
+  border-radius: 6px;
+}
+
+.feature_card_container h1{
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(66, 16, 16);
+}
+
+  .feature_card_container .button_div{
+ text-align: center;
+ border: 0cap;
+ 
+}
+
+.feature_card_container .button_div button{
+  height: 52px;
+  width: 198px;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 23px;
+  background-color: rgb(155 92 92);
+  border: transparent;
+text-shadow: 2rem;
+}
+
+.feature_card_container section{
+  height:auto;
+  width:15rem;
+  margin:2rem;
+  border:2px dotted rgb(84, 158, 187);
+  padding:6px;
+  text-align: center;
+  background-color: rgb(236, 245, 245);
+  border-radius: 5px;
+}
+
+.feature_card_container section button{
+  margin:1rem;
+  height:2rem;
+  width:10rem;
+  font-size: 1.2rem;
+  border-radius: 7px;
+  background-color: rgb(133, 129, 190);
+  color: rgb(246, 248, 248);
+}
+
+.pagination{
+  margin:3rem 1rem;
+  text-align: center;
+}
+.subscribe_main_section{
+  display: flex;
+}
+
+.subscribe_sub_section{
+  text-align: center;
+  margin: 6rem 3rem;
+  width:50%;
+}
+
+.subscribe_sub_section h1{
+  font-size: 2.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ line-height: 3.5rem;
+ color: rgb(59, 17, 17);
+}
+
+.subscribe_sub_section p{
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  word-spacing: 0.4rem;
+  color: rgb(65, 16, 16);
+}
+
+.div_form_container form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10rem 1rem;
+  width:50%;
+  
+}
+.div_form_container form input{
+  margin: 0.5rem 0rem;
+  height:2rem;
+  width:30rem;
+  border-radius: 5px;
+}
+
+.div_form_container form button{
+  margin: 0.5rem 0rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  width:10rem;
+  margin-left:7rem;
+  border-radius: 7px;;
+}
+
+@media screen and (min-width:768px) and (max-width:912px) {
+  .feature_card_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .feature_card_container div{
+    height: auto;
+    width:20rem;
+   margin:1.5rem;
+    margin-right: 1.5rem;
+  }
+   .feature_card_container div img{
+    height:10rem;
+    width:15rem;
+    margin:2rem;
+    border:1px solid rgb(146, 241, 4);
+  }
+  .subscribe_main_section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .subscribe_sub_section{
+    text-align: center;
+   width:100%;
+   margin: 3rem;
+  
+  }
+  .div_form_container form input{
+    margin: 0.5rem 0rem;
+    height:2rem;
+    width:20rem;
+  }
+}
+.video_text_section{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(139, 73, 73,0.2);
+}
+
+.text_section{
+  width:50%;
+  margin-left: 4rem;
+}
+
+.text_section h4{
+  font-weight: 100;
+  word-spacing: 0.4rem;
+  text-align: center;
+}
+
+.text_section h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 2.3rem;
+line-height: 3.5rem;
+margin-right:1.2rem;
+}
+.text_section p{
+  font-size: 1.2rem;
+  margin-right: 2rem;
+  line-height: 2.5rem;
+  word-spacing: 0.4rem;
+}
+
+.text_section button{
+  width:13rem;
+  height:3.3rem;
+  font-size: 1.4rem;
+  border: transparent;
+  border-radius: 10px;
+}
+.video_section{
+  width: 50%;
+  margin: 2rem;
+}
+
+.last_section{
+  display: flex;
+  background-color:rgba(54, 68, 54, 0.3);
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+  
+}
+.last_left{
+  width:50%;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+.last_left h5{
+  font-size: 1.1rem;
+  word-spacing: 0.4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(87, 27, 27);
+}
+.last_left h1{
+  font-size: 2.2rem;
+  line-height: 3.7rem;
+  word-spacing: 0.5rem;
+  color: rgb(73, 18, 18);
+  width:90%;
+}
+
+.last_left p{
+  font-size: 1.1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 2rem;
+  word-spacing: 0.4rem;
+  width:90%;
+}
+
+.last_left button{
+  height:3.5rem;
+  width:13rem;
+  font-size: 1.1rem;
+  word-spacing: 0.3rem;
+  font-weight: bold;
+  border-radius: 12px;
+  border: transparent;
+  box-shadow: inset;
+  color: rgb(73, 18, 18);
+  background-color: rgb(153, 90, 90);
+}
+.last_left button:hover{
+  border:4px solid rgb(77, 19, 19);
+  border-bottom: transparent;
+  border-right: transparent;
+}
+.last_right{
+  margin-bottom: 4rem;
+}
+.last_right img{
+  width:42rem;
+}
+.bottom_images{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/020/202/391/non_2x/happy-african-american-teen-girl-blogger-smiling-face-talking-to-webcam-recording-vlog-social-media-influencer-woman-streaming-making-video-call-at-home-headshot-portrait-selfie-webcamera-view-photo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  margin-top: 4rem;
+}
+.bottom_images h1{
+  height: 30rem;
+  background-color: rgb(179, 159, 134,0.8);
+}
+
+
+@media screen and (max-width:767px) {
+  .feature_card_container{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .feature_card_container h1{
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 3.5rem;
+    word-spacing: 1rem;
+    color: rgb(73, 17, 17);
+  }
+
+  
+  .feature_card_container div{
+    height: auto;
+    width:20rem;
+   margin:1rem;
+    margin-right: 1.5rem;
+  }
+
+  .feature_card_container div img{
+    height:13rem;
+    width:17rem;
+    margin:2rem;
+    border:1px solid rgb(146, 241, 4);
+    border-bottom: transparent;
+  }
+  .feature_card_container .button_div button{
+    width:14rem;
+    height: 4rem;
+    font-size: 1.7rem;
+    padding: 1rem;
+    border: transparent;
+    background-color: rgb(110, 65, 65,0.7);
+    color: rgb(34, 8, 8);
+   font-weight: 900;
+  }
+  .subscribe_main_section{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .subscribe_sub_section{
+    text-align: center;
+   width:90%;
+   margin: 3rem;
+  
+  }
+
+  .subscribe_sub_section p{
+    padding: 0.5rem;
+  }
+  
+.div_form_container form{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ justify-content: center;
+   width:90%;
+   margin: 1rem 0rem;
+  
+}
+
+.div_form_container form input{
+  margin: 0.5rem 0rem;
+  height:2rem;
+  width:20rem;
+  padding:0.2rem 0.5rem;
+}
+
+.video_text_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_section{
+  width:90%;
+  margin:1rem
+
+}
+.video_section{
+  width: 90%;
+ margin-left:6rem
+}
+.last_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.last_left{
+  width:90%;
+  margin:1rem;
+}
+.last_right img{
+  width:85%;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:912px) {
+  .feature_card_container{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .feature_card_container h1{
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 3.5rem;
+    word-spacing: 1rem;
+    color: rgb(73, 17, 17);
+  }
+
+  
+  .feature_card_container div{
+    height: auto;
+    width:40rem;
+   margin:1rem;
+    margin-right: 1.5rem;
+  }
+
+  .feature_card_container div img{
+    height:13rem;
+    width:17rem;
+    margin:2rem;
+    border:1px solid rgb(146, 241, 4);
+    border-bottom: transparent;
+  }
+  .feature_card_container .button_div button{
+    width:14rem;
+    height: 4rem;
+    font-size: 1.7rem;
+    padding: 1rem;
+    border: transparent;
+    background-color: rgb(110, 65, 65,0.7);
+    color: rgb(34, 8, 8);
+   font-weight: 900;
+  }
+  .subscribe_main_section{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .video_section{
+    width:80%;
+    margin-left: 1rem;
+  }
+  .subscribe_sub_section{
+    text-align: center;
+   width:90%;
+   margin: 1rem;
+  
+  }
+
+  .subscribe_sub_section p{
+    padding: 0.5rem;
+  }
+  
+.div_form_container form{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ justify-content: center;
+   width:90%;
+   margin: 1rem 0rem;
+  
+}
+
+.div_form_container form input{
+  margin: 0.5rem 0rem;
+  height:2rem;
+  width:20rem;
+  padding:0.2rem 0.5rem;
+}
+
+.video_text_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_section{
+  width:90%;
+
+}
+.video_section{
+  width: 90%;
+ margin-left:6rem
+}
+.last_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.last_left{
+  width:90%;
+}
+.last_right img{
+  width:90%;
+}
+}
+

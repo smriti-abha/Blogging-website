@@ -1,0 +1,273 @@
+.email_first_section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:linear-gradient(to right,rgb(243, 167, 243),rgb(59, 8, 59)) ;
+  color: aliceblue;
+}
+
+.email_first_section h1{
+  margin-bottom: 2rem;
+  line-height: 3.5rem;
+}
+
+.email_first_section p{
+  font-size: 1.2rem;
+  line-height: 2.0rem;
+  word-spacing: 0.4rem;
+  margin-bottom:2rem;
+}
+
+.email_first_section button{
+  margin-bottom: 2rem;
+}
+.email_first_left{
+padding: 3rem;
+}
+.email_first_right{
+  background-image: url('https://optimizedelectrotech.com/wp-content/uploads/2021/12/contact-us-banner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height:29rem;
+  opacity: 0.4;
+}
+
+.email_first_left button{
+  height:3rem;
+  width:9rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  border-radius: 10px;
+  border: 3px solid black;
+  border-top: transparent;
+  border-right: transparent;
+}
+
+.email_second{
+  border:0.1px solid violet;
+  margin-top: 5rem;
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+  gap:2rem;
+
+}
+.email_second h1{
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(62, 24, 97);
+  width:36%;
+}
+
+.email_second .email_second_card{
+  width:32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.email_list_items{
+  width:32%;
+}
+
+.email_list_items li{
+  list-style-type:none;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  padding-right:1rem;
+  padding:0.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: 500;
+ color: rgb(82, 8, 82);
+
+}
+.email_second h2{
+font-size: 1.6rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(123, 79, 161);
+}
+.email_second button{
+  
+  width: 10rem;
+  font-size: 1.2rem;
+  border-radius: 9px;
+  padding: 0.7rem;
+  /* margin-top: 4rem; */
+  background-color: rgb(157, 122, 190);
+  color: aliceblue;
+  border: 4px solid rgb(71, 32, 71);
+  border-bottom: 0.4px solid rgb(71, 32, 71);
+  border-right:  0.4px solid rgb(71, 32, 71);
+}
+.email_third{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+
+
+.email_third .email_third_card{
+ display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 3rem;;
+}
+.email_third .email_third_card img{
+  width:22rem;
+ border-radius: 16px;
+
+}
+
+.email_third_text{
+  width:50%;
+}
+
+.email_third_text h1{
+  font-size: 2.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 3.5rem;
+  color:rgb(235, 75, 235);
+text-align: center;
+}
+
+.email_third_text p{
+  font-size: larger;
+  line-height: 1.8rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+  color: grey;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding:1rem 2rem;
+}
+.footer_section{
+  background-image: url('https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTk4NTQ2NTkzNjE4NjAxNDEx/how-to-introduce-people-introductions-in-formal-and-informal-environments-made-easy.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:26rem;
+}
+.footer_section h1{
+ padding: 2rem;
+ color: rgb(78, 19, 78);
+}
+@media screen and (max-width:767px) {
+  .email_first_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .email_first_section h1{
+    margin-bottom: 2rem;
+    line-height: 3.5rem;
+  }
+
+  .email_first_section p{
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+    word-spacing: 0.4rem;
+    margin-bottom:2rem;
+  }
+
+  .email_first_section button{
+    margin-bottom: 2rem;
+  }
+  .email_first_left{
+  padding: 1rem;
+  }
+
+  
+  .email_first_right{
+ width: 100%;
+    height:29rem;
+    opacity: 0.4;
+  }
+
+  .email_second{
+ 
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+ 
+  }
+  .email_second h1{
+     width:100%;
+  }
+  
+  .email_second .email_second_card{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+  .email_list_items{
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .email_list_items li{
+    list-style-type: none;
+  }
+  .email_second h2{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(123, 79, 161);
+  }
+  /* .email_second button{
+    
+   
+    background-color: rgb(157, 122, 190);
+    color: aliceblue;
+    border: 4px solid rgb(71, 32, 71);
+    border-bottom: 0.4px solid rgb(71, 32, 71);
+    border-right:  0.4px solid rgb(71, 32, 71);
+  } */
+  .email_third .email_third_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .email_third_text{
+    width:100%;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:912px) {
+  .email_first_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .email_first_left{
+    width:100%;
+    padding: 3rem;
+  }
+  .email_first_right{
+    width: 100%;
+       height:29rem;
+       opacity: 0.4;
+     }
+    
+     .email_third .email_third_card{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+}

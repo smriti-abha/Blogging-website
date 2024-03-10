@@ -1,0 +1,167 @@
+.head{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.searchBar input{
+  height:2.5rem;
+ transform: translateX(70%);
+ width:26rem;
+ text-align: center;
+ font-size: 1.5rem;;
+}
+.game_list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin:2rem;
+}
+
+.game_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+ width:17rem;
+  height:auto;
+  border:0.2px solid skyblue;
+  margin:2rem 0.5rem;
+  padding:1rem;
+}
+
+.game_card img{
+  width:12rem;
+}
+.game_card .game_details{
+  text-align: center;
+  margin-bottom:2.5rem;
+}
+/* styles.css */
+.game_details{
+  display: flex;
+  flex-direction: column;
+  gap:1.2rem;
+  margin-top: 2rem;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 5rem;
+  
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.gamer_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:2rem;
+}
+
+.gamer_section h1{
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:rgb(37, 1, 37);
+}
+
+.gamer_section p{
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-spacing: 0.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: rgb(134, 46, 134);
+}
+
+.image_section{
+  background-image: url('https://media.cnn.com/api/v1/images/stellar/prod/i-stock-1287493837-1.jpg?c=16x9&q=h_833,w_1480,c_fill');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:25rem;
+}
+
+.image_section h1{
+  text-align: center;
+  color: white;
+ background-color: rgb(31, 28, 28,0.7);
+ height: 25rem;
+ 
+ padding: 3rem;
+ padding-top: 10rem;
+ word-spacing: 0.4rem;
+}
+
+
+@media screen and (max-width:767px) {
+  .game_card{
+    width:21rem;
+  }
+
+  .game_card img{
+    width: 20rem;
+    border-radius: 2rem;
+  }
+  .searchBar input{
+
+    transform: translateX(6%);
+    width: 22rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  .pagination {
+    flex-wrap: wrap;
+  }
+
+  .pagination button {
+    margin: 5px;
+  }
+  .image_section{
+    height:38rem;
+    padding-top: -2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:912px) {
+  .game_list{
+    display: flex;
+  }
+ 
+ 
+  .searchBar input{
+
+    transform: translateX(50%);
+    width:20rem;
+    margin-top: 2rem;
+   }
+   .pagination {
+    flex-wrap: wrap;
+  }
+
+  .pagination button {
+    margin: 5px;
+  }
+}

@@ -1,0 +1,273 @@
+.life_main_section{
+  background-color: aliceblue;
+}
+.life_middle_section {
+  display: flex;
+}
+
+.life_first_section {
+  background-image: url('https://img.freepik.com/free-photo/two-young-beautiful-smiling-girls-trendy-summer-clothes-sunglasses-sexy-carefree-women-posing-positive-screaming-models_158538-4722.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1701216000&semt=ais');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40rem;
+}
+
+.life_middle_first {
+  width: 70%;
+}
+
+.life_middle_first .life_second_section {
+  margin-top: -15rem;
+ margin-left: 2rem;
+  padding: 2rem;
+  border-radius: 17px;
+  background-color: white;
+}
+
+.life_middle_first .life_second_section h1 {
+  text-align: center;
+  font-size: 2.6rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 3.5rem;
+  color: rgb(71, 10, 10);
+}
+
+.life_middle_first .life_second_section h2 {
+  text-align: center;
+  font-size: 2.1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 3.5rem;
+  color: rgb(155, 20, 20);
+}
+
+.life_middle_first .life_second_section p {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7rem;
+  word-spacing: 0.5rem;
+  margin: 2rem 1rem;
+
+}
+
+.life_middle_first .life_third_section {
+
+  background-color: white;
+  margin-left: 2rem;
+  padding: 2rem;
+}
+
+.life_middle_first .life_third_section h1 {
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  color: rgb(95, 23, 23);
+}
+
+.life_middle_first .life_third_section img {
+  width: 98%;
+}
+
+.life_middle_first .life_third_section p {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7rem;
+  word-spacing: 0.5rem;
+  margin: 2rem 1rem;
+}
+
+.life_middle_second {
+  width: 30%;
+  margin-left: 4rem;
+  margin-right: 3rem;
+  ;
+}
+
+
+
+.life_subs_section {
+  margin-right: 2rem;
+  ;
+}
+
+.life_middle_card {
+  background-image: url('https://media.istockphoto.com/id/613241758/photo/young-woman-working-on-a-laptop.jpg?s=612x612&w=0&k=20&c=B3WbJ7VFEr77G0T698I0WMkM5LOV-pMrLCljEEJGh-o=');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35rem;
+  margin-right: 2rem;
+}
+
+.life_middle_card h1 {
+  background-color: rgb(75, 68, 68, 0.6);
+  color: white;
+  text-align: center;
+  margin: 2rem;
+  padding-top: 2rem;
+  height: 20rem;
+}
+
+
+
+.life_card_section {
+  margin-right: 2rem;
+  width: 16rem;
+}
+
+.life_card_section img {
+  width: 14rem;
+  border-radius: 50%;
+}
+
+.life_middle_second .life_subs_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.life_subs_section h2{
+  font-size: 2.2rem;
+  font-family: 'Segoe UI',Verdana, sans-serif;
+  color: rgb(92, 23, 23);
+  line-height: 3.5rem;
+}
+
+.life_subs_section input{
+  height:2.9rem;
+  width:19rem;
+   border-radius: 10px;
+   margin-bottom: 3rem;
+   border:3px solid rgb(113, 140, 163);
+   font-size: 1.2rem;
+}
+
+.life_middle_card{
+  width:25rem;
+  border-radius: 16px;
+}
+
+.life_middle_card button{
+  height:3rem;
+  width:12rem;
+  margin-left:3rem;
+  font-size: 1.5rem;
+  color: rgb(12, 51, 66);
+  font-weight: bolder;
+  border-radius: 10px;
+  border: 3px solid rgb(22, 89, 116);
+  border-bottom: transparent;
+  border-right: 0.5px solid rgb(58, 128, 156);
+}
+
+.contact_icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:3.5rem;
+  margin:5rem 1rem ;
+}
+
+.life_subs_section h1{
+  font-size: 2.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  color: rgb(253, 244, 244);
+}
+
+.life_card_section{
+  border: 1px solid grey;
+  padding: 2rem;
+  background-color: rgb(168, 168, 33,0.6);
+}
+
+.life_card_section h1{
+  color: aliceblue;
+}
+
+.life_card_section p{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  color: rgb(10, 83, 83);
+}
+
+.second_card_section {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+
+.second_card_section img{
+  margin-top: 1rem;
+  border-radius: 50%;
+}
+
+.second_card_section p{
+  font-size: 1.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+.third_card_section h2{
+  align-items: center;
+}
+
+.third_card_section h1{
+  font-size: 1.6rem;
+  line-height: 3.6rem;
+  letter-spacing: 0.1rem;
+  color: brown;
+}
+
+.life_footer_section{
+  background-image: url('https://64.media.tumblr.com/db107af3eb92a4df0bb596828b47700f/30557da5e615bf94-25/s1280x1920/82f16f011f8fdece8ce5ab4fba05db2b9fedd4e9.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:25rem;
+}
+
+.life_footer_section h1{
+  text-align: center;
+  background-color: rgb(161, 40, 40,0.5);
+  height:30rem;
+  color: aliceblue;
+  padding-top: 12rem;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+@media screen and (max-width:767px) {
+  .life_middle_section {
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+
+
+  }
+
+  .life_middle_first{
+    width: 97%;
+   
+  }
+
+  .life_footer_section h1{
+   padding-top: 10rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+  }
+
+  .life_middle_second {
+    display: none;
+  }
+}

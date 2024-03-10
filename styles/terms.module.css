@@ -1,0 +1,73 @@
+.terms_header{
+  background-color: rgb(57, 165, 165);
+  height:12rem;
+  margin-bottom: 1rem;
+}
+
+.terms_header h1{
+  text-align: center;
+  padding-top: 5rem;
+}
+.paragraph_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
+ 
+}
+
+.paragraph_section p{
+  font-size: 1.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 2rem 4rem;
+  line-height: 2.2rem;
+  word-spacing: 0.3rem;
+}
+.termsSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:2rem 4rem;
+}
+
+.termsSection h2{
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 4rem;
+  color:rgb(39, 122, 95)
+
+}
+
+.termsSection p{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  word-spacing: 0.4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image_section{
+  background-image: url('https://vakilsearch.com/blog/wp-content/uploads/2022/05/SERVICE-AGREEMENT.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:23rem;
+  text-align: center;
+}
+
+.image_section h1{
+  background-color:rgb(52, 139, 173,0.6);
+  height:23rem;
+  text-align: center;
+  color: black;
+  padding: 10rem;
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+@media screen and (max-width:767px) {
+  
+}
+
+@media screen and (min-width:767px) and (max-width:912px) {
+  
+}

@@ -1,0 +1,777 @@
+.aging_sub_section {
+  display: flex;
+  background-color: rgb(139, 158, 111);
+  margin-bottom: 3rem;
+}
+
+.aging_left_sub_section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap:1.1rem
+}
+
+.aging_left_sub_section button {
+  height: 3.5rem;
+  width: 10rem;
+  font-size: 1.1rem;
+  font-weight: 900;
+  border-radius: 12px;
+  border: 4px solid green;
+  border-top: 0.2px solid green;
+  border-right: 0.2px solid green;
+  margin-left: 7rem;
+  margin-top: 3rem;
+  color: rgb(92, 69, 13);
+}
+
+.aging_right_sub_section {
+  width: 50%;
+
+}
+
+.aging_right_sub_section img {
+  height: 500px;
+  opacity: 0.8;
+  width: 654px;
+}
+
+.aging_mid_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:3.5rem;
+}
+
+.aging_mid_left_section {
+  width: 50%;
+  width: 22rem;
+}
+
+.aging_mid_left_section h2 {
+  font-size: 1.8rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(20, 66, 20);
+  line-height: 2.3rem;
+}
+
+.aging_mid_left_section p {
+  font-size: 1.3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(59, 0, 0);
+  line-height: 2rem;
+}
+
+.aging_mid_right_section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.aging_mid_right_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.aging_second_last {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.aging_second_last img {
+  width: 33%;
+  height: 30rem;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+ 
+}
+
+.aging_second_last:hover img {
+  transform: scale(1.1);
+}
+.aging_third_last{
+  display: flex;
+  align-items: center;
+}
+.aging_third_left{
+  background: linear-gradient(to right,white,#ffbf00);
+  width:45%;
+  margin-right: 2rem;
+  padding:4rem;
+  border-radius: 2rem;
+  margin-left:-2rem;
+  margin-top:-4rem;
+  
+}
+.aging_third_left h1,.aging_third_right h1{
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+.aging_third_left p,.aging_third_right p{
+  font-size: 1.2rem;
+  margin-top:1.5rem;
+  line-height: 2rem;
+  word-spacing: 0.4rem;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.aging_third_right{
+  background:  linear-gradient(to right,#ffbf00,white);
+  width: 50%;
+  padding:4rem;
+  border-radius: 2rem;
+  margin-top:-4rem;
+}
+
+.aging_footer_image{
+  background-image: url('https://images.pexels.com/photos/2065725/pexels-photo-2065725.jpeg?cs=srgb&dl=pexels-gabriel-antonio-2065725.jpg&fm=jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:40rem;
+  margin-top:-9rem;
+}
+
+.aging_footer_image img {
+  width: 50%;
+  height: 30rem;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+ 
+}
+
+.aging_footer_image:hover img {
+  transform: scale(1.1);
+}
+.aging_mid_right_section .types_of_health h1 {
+  font-size: 2.8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(5, 61, 5);
+  line-height: 3.5rem;
+}
+
+.aging_mid_right_section .types_of_health p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  word-spacing: 0.3rem;
+  margin-bottom: 3rem;
+  color: rgb(15, 9, 1);
+}
+
+.aging_mid_right_section .types_of_health h2 {
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(8, 121, 8);
+  line-height: 3rem;
+}
+
+.aging_mid_right_section .key_nutrients h1 {
+  font-size: 2.8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(5, 61, 5);
+  line-height: 3.5rem;
+
+}
+
+.aging_mid_right_section .key_nutrients ol li {
+  list-style-type: none;
+}
+
+.aging_mid_right_section .key_nutrients ol li h3 {
+  font-size: 2.2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(8, 121, 8);
+  line-height: 3.2rem;
+}
+
+.aging_mid_right_section .key_nutrients ol li p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  word-spacing: 0.3rem;
+  margin-bottom: 3rem;
+  color: rgb(15, 9, 1);
+}
+
+.aging_mid_right_section .Nutrient_rich_diet h1 {
+  font-size: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(5, 61, 5);
+  line-height: 4rem;
+}
+
+.aging_mid_right_section .Nutrient_rich_diet ul li {
+  list-style-type: none;
+}
+
+.aging_mid_right_section .Nutrient_rich_diet ul li h3 {
+  font-size: 2.2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(8, 121, 8);
+  line-height: 3.1rem;
+
+}
+
+.aging_mid_right_section .Nutrient_rich_diet ul li p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  word-spacing: 0.3rem;
+  margin-bottom: 2rem;
+  color: rgb(15, 9, 1);
+}
+
+.aging_mid_right_section .after_retirement h1 {
+  font-size: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(5, 61, 5);
+  line-height: 3.5rem;
+}
+
+.aging_mid_right_section .after_retirement p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  word-spacing: 0.3rem;
+  margin-bottom: 2rem;
+  color: rgb(15, 9, 1);
+}
+
+.aging_mid_right_section .after_retirement ul li {
+  list-style-type: none;
+}
+
+.aging_mid_right_section .after_retirement ul li h3 {
+  font-size: 2.2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(8, 121, 8);
+  line-height: 4rem;
+}
+
+.aging_last_section {
+  height: 27rem;
+  color: white;
+  background-color: rgba(3, 116, 3, 0.9);
+  background-image: url('');
+}
+
+.aging_last_section img {
+  height: 27rem;
+  opacity: 0.4;
+  width: 1350px;
+}
+
+/* css for health page */
+.health_first_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(53, 101, 121, 0.8);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.health_first_section h1 {
+  text-align: center;
+  font-weight: bold;
+  line-height: 3rem;
+}
+.health_first_section h2 {
+  text-align: center;
+  margin-top: 2rem;
+  line-height: 3rem;
+}
+.health_second_section {
+  background-image: url('https://p.kindpng.com/picc/s/163-1635415_people-on-holiday-transparent-hd-png-download.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+
+
+.health_second_section .health_second_right h1{
+  background-color: rgba(12, 61, 80, 0.6);
+  height:20rem;
+  margin-top: -5rem;
+ 
+}
+.health_second_button button{
+  height:5rem;
+  width:20rem;
+  font-size: 1.3rem;
+  color:rgb(0, 67, 94);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: 3px solid rgb(18, 66, 85);
+  border-right: transparent;
+  border-top: transparent;
+  background-color: skyblue;
+  transform: translateY(200%);
+}
+
+.health_third_section {
+  background-image: url('https://www.goodnet.org/photos/620x0/35438_hd.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.health_third_section .health_third_left {
+  width: 50%;
+  height: 28rem;
+}
+
+.health_third_section .health_third_left h1 {
+  font-size: 3rem;
+  background-color: rgb(116, 15, 15, 0.6);
+  color: white;
+  line-height: 4rem;
+  margin: 3rem 1.5rem;
+  padding: 3rem;
+}
+
+.health_third_section .health_third_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(170, 166, 166, 0.8);
+  width: 50%;
+  margin: 3rem 0;
+  padding: 3rem;
+
+}
+
+.health_third_section .health_third_right h2 {
+  font-size: 2.5rem;
+  color: white;
+  line-height: 3.2rem;
+  padding: 3rem;
+}
+
+.health_third_section .health_third_right button {
+  width: 15rem;
+  height: 4rem;
+  font-size: 1.3rem;
+  padding: auto;
+  border-radius: 12px;
+  border: 5px solid grey;
+  border-bottom: 1px solid grey;
+  border-right: transparent;
+  color: rgb(85, 84, 84);
+  font-weight: bolder;
+}
+
+.fourth_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(61, 53, 53, 0.7);
+  color: white;
+  padding: 2rem;
+  margin: 3rem 0rem;
+}
+
+.fourth_section .card_section {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+}
+
+.fourth_section .card_section h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.fourth_section .card_section h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.health_fifth_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(168, 28, 28);
+}
+
+.health_fifth_section .health_fifth_left {
+  width: 50%;
+
+}
+
+.health_fifth_section .health_fifth_left img {
+  width: 55rem;
+
+  border-radius: 15px;
+  opacity: 0.6;
+}
+
+.health_fifth_section .health_fifth_right {
+  width: 50%;
+  color: white;
+}
+
+.health_fifth_section .health_fifth_right {
+  padding: 2rem;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+ 
+
+}
+
+/* css for travel subpage */
+.travel_first_section{
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+}
+
+.travel_first_section .travel_first_left{
+width:40%;
+}
+
+.travel_first_section .travel_first_left .sliderImage{
+  width:600px;
+  height:400px;
+}
+
+.travel_first_section .travel_first_right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.travel_first_section .travel_first_right h1{
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-spacing: 0.3rem;
+}
+
+.travel_first_section .travel_first_right p{
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+.travel_first_section .travel_first_right .package_card{
+  height:18rem;
+  width:25rem;
+  border:2px solid yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.travel_first_section .travel_first_right .package_card img{
+  height:10rem;
+  width:25rem;
+}
+
+@media screen and (max-width:767px) {
+  .aging_sub_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aging_left_sub_section {
+    width: 100%;
+  }
+
+  .aging_right_sub_section img {
+    width: 8rem;
+    height: 8rem
+  }
+
+  .aging_mid_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card_section {
+    width: 17rem;
+  }
+
+  .card_section img {
+    width: 16rem
+  }
+
+  .aging_mid_left_section {
+    width: 17rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aging_mid_right_section {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+  }
+
+  .aging_mid_right_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .aging_last_section img {
+    height: 27rem;
+    opacity: 0.7;
+    width: 23rem;
+  }
+  
+
+
+ 
+  
+
+  .health_third_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .health_third_section .health_third_left {
+    width: 100%;
+  }
+
+  .health_third_section .health_third_right {
+    width: 100%;
+    margin-top:18rem;
+  }
+
+  .fourth_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .fourth_section .card_section {
+    padding: 1rem;
+    ;
+  }
+
+  .health_fifth_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .health_fifth_section .health_fifth_left {
+    width: 100%;
+  }
+
+  .health_fifth_section .health_fifth_left img {
+    width: 23rem;
+
+  }
+
+  .health_fifth_section .health_fifth_right {
+    width: 95%;
+  }
+
+
+  
+  .aging_second_last img {
+   
+    display: none;
+   
+  }
+  
+
+  .aging_third_last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aging_third_left{
+    background: linear-gradient(to right,white,#ffbf00);
+    width:100%;
+   border-radius: 2rem;
+    margin-left:-2rem;
+    margin-top:1rem;
+    
+  }
+  .aging_third_right{
+    background:  linear-gradient(to right,#ffbf00,white);
+    width: 100%;
+ 
+    border-radius: 2rem;
+    margin-top:1rem;
+  }
+ .aging_footer_image{
+  display: flex;
+  align-items: center;
+ }
+  .aging_footer_image img {
+    width: 50%;
+    height: 50rem;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+   
+  }
+  
+  .aging_footer_image:hover img {
+    transform: scale(1.5);
+  }
+}
+
+
+@media screen and (min-width:767px) and (max-width:912px) {
+  .aging_sub_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aging_left_sub_section {
+    width: 100%;
+  }
+
+  .aging_right_sub_section img {
+    width: 30rem;
+    height: 18rem
+  }
+
+  .aging_mid_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card_section {
+    width: 37rem;
+  }
+
+  .card_section img {
+    width: 26rem;
+    height: 15rem;
+  }
+
+  .aging_mid_left_section {
+    width: 27rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aging_mid_right_section {
+    width: 38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+  }
+
+  .aging_mid_right_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .health_second_section{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+    background-color: skyblue;
+  }
+
+
+
+  
+  .health_second_section button {
+
+    margin-left: 8rem;
+
+  }
+
+  .health_third_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .health_third_section .health_third_left {
+    width: 100%;
+  }
+
+  .health_third_section .health_third_right {
+    width: 100%;
+  }
+
+  .fourth_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fourth_section .card_section {
+    padding: 1rem;
+    ;
+  }
+
+  .health_fifth_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .health_fifth_section .health_fifth_left {
+    width: 100%;
+  }
+
+  .health_fifth_section .health_fifth_right {
+    width: 100%;
+  }
+}

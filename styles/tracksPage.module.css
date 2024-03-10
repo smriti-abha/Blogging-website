@@ -1,0 +1,15 @@
+.card_games_list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.amiibo_cards_element{
+  width:20rem;
+}
+
+.amiibo_cards_element img{
+  width:15rem;
+  height: 18rem;
+}

@@ -1,0 +1,122 @@
+
+
+.navInnerContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height:4rem;
+position: sticky;
+ top: 0;
+}
+.navInnerContainer h1{
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navInnerContainer .menu{
+  /* display: none; */
+  display: none;
+  position: absolute;
+  top: 0.75em;
+  right:0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+.menu span{
+  height: 0.4rem;
+  width: 100%;
+  background-color: rgb(4, 134, 248);
+  border-radius: 0.2rem;
+}
+
+.navInnerContainer ul{
+  display: flex;
+   align-items: center;
+  justify-content: space-between;
+  gap: 3.5rem;
+
+}
+
+.navInnerContainer ul li{
+  list-style-type: none;
+  
+}
+
+.navInnerContainer ul li a{
+  text-decoration: none;
+  color: rgb(5, 0, 0);
+}
+
+
+.navInnerContainer ul li ul{
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgb(250, 248, 246);
+  color: aliceblue;
+}
+
+.navInnerContainer ul li:hover ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  background-color:skyblue;
+  padding: 0.5rem 1rem;
+  margin:2rem;
+  border-radius: 7px;
+
+}
+
+
+
+
+@media screen and (max-width:600px) {
+  .navInnerContainer .menu{
+    display: flex;
+   top: 0.75em;
+    right:0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+  }
+
+  .navInnerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    width: 100%;
+  
+   
+  }
+
+  .navInnerContainer ul{
+    display: none;
+    flex-direction: column;
+  width:100%;
+  margin-bottom: 0.2rem;
+  }
+
+  .navInnerContainer ul.open{
+    display: flex;
+    background-color: rgb(218, 214, 209);
+    padding: 2rem;
+  }
+
+  .navInnerContainer ul li:hover{
+    border:0.1rem solid grey;
+    width:5rem;
+  }
+ 
+
+  
+  .navInnerContainer ul li{
+    text-align: center;
+    width: 100%;
+  }
+}

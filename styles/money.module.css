@@ -1,0 +1,251 @@
+
+.money_first{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.money_first_left{
+  background-image: url('https://img.freepik.com/free-photo/three-young-stylish-smiling-beautiful-girls-with-colorful-penny-skateboards-women-summer-checkered-shirt-clothes-posing-positive-models-having-fun_158538-4654.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:35rem;
+  width:150rem;
+}
+.money_first_right{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  background-color: rgb(2, 124, 2,0.78);
+ margin-left: -16rem;
+ margin-right: 4rem;
+ border-radius: 10px;
+
+}
+
+.money_first_right h1{
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.money_first_right p{
+  font-size: 1.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.9rem;
+
+}
+
+.money_first_right button{
+  height: 5rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 1rem;
+  border: 3px solid rgb(25, 65, 25);
+  border-right: transparent;
+  border-bottom: transparent;
+  border-radius: 10px;
+  width: 29rem;
+}
+
+.money_second{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:1.2rem 2rem;
+}
+
+.money_second h1{
+ font-size: 2rem;
+ line-height: 2.8rem;
+ color: rgb(1, 71, 1);
+}
+
+.money_second p{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.money_third{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.third_card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:3rem 6rem;
+}
+.money_third .third_header{
+  width: 50%;
+  padding:1rem;
+}
+
+.money_third .third_header h1{
+  text-align: center;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.money_third .third_header p{
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  word-spacing: 0.3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+  color: rgb(47, 94, 78);
+}
+
+.money_third img{
+ width: 40%;
+ border-radius: 25%;
+}
+
+.money_fourth{
+  background-image: url('https://img.freepik.com/free-photo/sexy-carefree-women-posing-street-background-hugging-sunset_158538-3309.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  height:30rem;
+ 
+
+}
+
+.money_fourth h1{
+  height:30rem;
+  color: white;
+  text-align: center;
+  background-color: rgb(11, 110, 11,0.6);
+  padding-top: 10rem;
+ 
+}
+
+
+
+@media screen and (max-width:767px){
+  .money_first{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:167%;
+  }
+  .money_first_left{
+    height: 31rem;
+    width: 41rem 
+  }
+  .money_first_right{
+    background-color: rgb(1, 129, 1,0.75);
+    margin-left:1rem;
+    margin-right: 1rem;
+  margin-top: -8rem;
+  padding:1rem;
+  padding-bottom: 2rem;;
+  }
+  .money_first_right h1{
+  margin:2rem;
+  }
+
+  .money_first_right p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .money_second{
+    text-align: center;
+    width:40rem;
+  }
+
+  .money_second h1{
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .money_second p{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    word-spacing: 0.5rem;
+    font-weight: 500;
+  }
+  .money_third{
+    text-align: center;
+    width:30rem;
+  }
+  .third_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 11rem;
+  }
+
+  .third_card .third_header{
+    width: 39rem;
+
+  }
+
+  .third_card .third_header h1{
+    text-align: center;
+    
+  }
+  .third_card .third_header p{
+    text-align: center;
+  }
+  .third_card img{
+    width:100%;
+    border-radius: 50%;
+  }
+
+}
+
+@media screen and (min-width:767px) and (max-width:912px){
+  .money_first{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .money_first_left{
+    height:20rem;
+    width:34rem;
+  }
+  .money_first_right{
+    background-color: rgb(1, 129, 1,0.75);
+    margin-left:1rem;
+    margin-right: 1rem;
+  margin-top: -8rem;
+  padding:1rem;
+  padding-bottom: 2rem;;
+ 
+  
+  
+  }
+  .third_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .third_card .third_header{
+    width: 100%;
+
+  }
+  .third_card img{
+    width:100%;
+    border-radius: 50%;
+  }
+}
